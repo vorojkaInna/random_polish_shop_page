@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.main-section{
+    margin: 120px 20% 0;
+}
+
+.main-title-picture-subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-title{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #00A0E3;
+}
+.main-subtitle {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
+.container1{
+    margin-top: 30px ;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat( auto-fill,minmax(370px, 1fr));
+    grid-template-rows: repeat(auto-fill,minmax(100px, 1fr)) ;
+
+}
+.container2{
+    margin-top: 60px ;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat( auto-fill,minmax(210px, 1fr));
+}
+.container1-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 370px;
+}
+.container2-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 210px;
+}
+.container1-block-changed{
+    padding: 40px 115px 40px 22px;
+    justify-content: space-between;
+}
+
+.container1-block-text{
+    max-width: 250px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.container2-block-text{
+    margin-top: 20px;
+    max-width: 180px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
+.container2-block-coast{
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+}
+.main-section-button{
+    margin: 90px auto 120px;
+    padding: 20px 160px;
+    background: #E36464;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main-section-button-align{
+    display: flex;
+    justify-content: center;
+}
